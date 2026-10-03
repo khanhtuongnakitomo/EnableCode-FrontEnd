@@ -1,5 +1,33 @@
 # Enable Code — Frontend
 
+**Accessible programming lessons controlled through a laptop webcam and visual blocks.**
+
+Enable Code is a team-built education platform for learners with limited motor ability. Its frontend combines face controls with Blockly lessons, progress tracking, and a companion backend.
+
+![Enable Code programming workspace](docs/screenshots/CodeSpace.png)
+
+[Live demo](https://enablecode.vercel.app) · [Original frontend](https://github.com/shynnguyen1004/EnableCode-FrontEnd) · [My portfolio](https://github.com/khanhtuongnakitomo)
+
+## My contributions
+
+I contributed a code-generation correction that prevents orphan blocks from being included in generated Python: [merged PR #22](https://github.com/shynnguyen1004/EnableCode-FrontEnd/pull/22). I also contributed to the companion backend, including email fixes and documentation; its source remains private.
+
+## Project at a glance
+
+| Area | Technology or behavior |
+| --- | --- |
+| Frontend | React and TypeScript |
+| Visual programming | Blockly |
+| Accessibility | Webcam face controls using MediaPipe |
+| Learning flow | Lessons, submissions, and progress |
+| Backend connection | Authentication and curriculum APIs |
+
+This portfolio fork preserves the original authorship and team documentation. Webcam interaction requires appropriate permissions and supported hardware; the demo is not a claim of validated accessibility for every user or device.
+
+---
+
+## Developer documentation
+
 A hands-free coding platform: control the interface with facial gestures (**Face Control**) and build programs with visual blocks (**Blockly**). Enable Code is built for learners with limited motor ability — a laptop webcam is enough, with no extra assistive hardware.
 
 > **Tagline:** _Code with Face Control_ — build web apps using head gestures and block-based interactions.
